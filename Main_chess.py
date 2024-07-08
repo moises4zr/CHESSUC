@@ -7,8 +7,9 @@ from Alfil import *
 from Torre import *
 from Peon import *
 
-rey1 = rey('no movida')
+def main():
+    rey1 = rey("negro")
+    print(rey1.color)
 
 if __name__ == "__main__":
-    
     main()
